@@ -1,0 +1,31 @@
+.topheader{
+    width: 100vw;
+    height: 99px;
+}
+.mainheader{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: rgb(19,25,33);
+    display: grid;
+    grid-template-columns: 2fr 8fr 3fr;
+    
+}
+.mainheader div{
+    border-right: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.leftmainhead{
+    min-width: 294px;
+}
+.location{
+    min-width: 50%;
+    min-height: 60%;
+}
+.locationimg{
+    width: 20px;
+    filter: invert(100%);
+}
