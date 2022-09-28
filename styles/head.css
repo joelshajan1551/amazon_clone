@@ -7,25 +7,43 @@
     height: 60px;
     position: fixed;
     background-color: rgb(19,25,33);
-    display: grid;
-    grid-template-columns: 2fr 8fr 3fr;
-    
+    display: flex;    
 }
-.mainheader div{
+.leftmainhead,.bottomhead,.righthead{
     border-right: 1px solid white;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
 }
 .leftmainhead{
-    min-width: 294px;
+    min-width: 14%;
+    width: 15.2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.amazonlogo{
+    padding: 17px;
+    width: 35%;
 }
 .location{
-    min-width: 50%;
-    min-height: 60%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    color: white;
 }
 .locationimg{
-    width: 20px;
+    width: 13%;
     filter: invert(100%);
+}
+.locationdetails p{
+    line-height: 5px;
+}
+.deliveryname{
+    font-size: 12px;
+    color: #ccc;
+    font-weight: 500;
+}
+.deliveryplace{
+    font-size: 14px;
+    font-weight: 700;
 }
