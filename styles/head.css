@@ -1,5 +1,5 @@
 .topheader{
-    width: 100vw;
+    width: 99.2vw;
     height: 99px;
 }
 .mainheader{
@@ -35,7 +35,7 @@
     width: 13%;
     filter: invert(100%);
 }
-.locationdetails p{
+.locationdetails{
     line-height: 5px;
 }
 .deliveryname{
@@ -46,4 +46,73 @@
 .deliveryplace{
     font-size: 14px;
     font-weight: 700;
+}
+.bottomhead{
+    width: 63%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.itemlist{
+    width: 4.5%;
+    height: 70%;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    border: 1px solid #cdcdcd;
+}
+#searchbar{
+    width: 90%;
+    height: 67%;
+    border: none;
+}
+.searchbutton{
+    width: 4%;
+    height: 71%;
+    margin-left: 0%;
+    background-color: rgb(254,189,105);
+    border: none;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.searchbutton img{
+    width:65%;
+}
+.righthead{
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr 2fr;
+    width: 21.45vw;
+    gap: 30px;
+    align-content: center;
+    padding: 10px 30px;
+}
+.righthead div{
+    height: 2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    color: white;
+}
+.indiaflag{
+    width: 50%;
+}
+.language{
+    font-size: 12px;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0%;
+}
+.accountowner{
+    font-size: 12px;
+}
+.accountdetails{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.accountdetails p{
+    margin: 0%;
+    width: 100%;
+    line-height: 18px;
 }
