@@ -10,7 +10,6 @@
     display: flex;    
 }
 .leftmainhead,.bottomhead,.righthead{
-    border-right: 1px solid white;
     display: flex;
     flex-direction: row;
 }
@@ -89,7 +88,7 @@
 .righthead div{
     height: 2vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding-top: 10px;
     color: white;
@@ -105,6 +104,7 @@
 }
 .accountowner{
     font-size: 12px;
+    margin-top: 5px;
 }
 .accountdetails{
     display: flex;
@@ -112,7 +112,34 @@
     text-align: start;
 }
 .accountdetails p{
-    margin: 0%;
     width: 100%;
-    line-height: 18px;
+}
+.accountlist{
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: -11px;
+}
+.cart{
+    position: relative;
+    gap: 10px;
+}
+.cartimage{
+    filter: invert(100%);
+    width: 50%;
+}
+.cartitemnum{
+    position: absolute;
+    top: -11px;
+    left: 14%;
+    font-size: 21px;
+    font-weight: 700;
+}
+.cartitemnum p{
+    color: rgb(240,136,4);
+
+}
+.cartoption{
+    font-weight: 700;
+    margin-top: 30px;
+    font-size: 12px;
 }
