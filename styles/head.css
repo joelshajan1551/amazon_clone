@@ -10,6 +10,7 @@
     position: fixed;
     background-color: rgb(19,25,33);
     display: flex;    
+    z-index: 1;
 }
 .leftmainhead,.bottomhead,.righthead{
     display: flex;

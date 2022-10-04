@@ -2,4 +2,16 @@ body{
     margin: 0%;
     margin-bottom: 1000px;
     font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(234,237,237);
+
+}
+.container{
+    width: 75vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

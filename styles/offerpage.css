@@ -1,0 +1,66 @@
+.offerpage {
+  width: 100%;
+  background-image: url("/images/dreatindianfestival.jpg");
+  background-size: cover;
+  position: relative;
+  height: 556px;
+  overflow: hidden;
+}
+.offerpage .offerimg:before {
+  content: "";
+  background-image: linear-gradient(
+    to top,
+    rgb(234,237,237),
+    rgb(255 255 255 / 0%)
+  );
+  position: absolute;
+  height: 317px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.offerpage .offerimg:after {
+  content: "";
+  display: block;
+  height: 9999px;
+}
+.offeerimg{
+    width: 569px;
+}
+.maindeals{
+    height: 860px;
+    top: 372px;
+    position: absolute;
+    width: 75vw;
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+.offercatogories{
+    background-color: white;
+    max-height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.dealtitle{
+    width: 90%;
+    height: 55px;
+    background-color: aquamarine;
+}
+.dealitemimgcard{
+    width: 90%;
+    height: 265px;
+    background-color: aquamarine;
+}
+.moredeals{
+    height: 19px;
+    width: 90%;
+    background-color: aqua;
+}
