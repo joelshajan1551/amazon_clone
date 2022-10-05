@@ -11,7 +11,7 @@
   background-image: linear-gradient(
     to top,
     rgb(234,237,237),
-    rgb(255 255 255 / 0%)
+    rgba(255, 255, 255, 0)
   );
   position: absolute;
   height: 317px;
@@ -42,6 +42,7 @@
 }
 .offercatogories{
     background-color: white;
+    min-height: 355px;
     max-height: 420px;
     display: flex;
     flex-direction: column;
@@ -52,15 +53,57 @@
 .dealtitle{
     width: 90%;
     height: 55px;
-    background-color: aquamarine;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.dealtitle p{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
 }
 .dealitemimgcard{
     width: 90%;
-    height: 265px;
-    background-color: aquamarine;
+    height: 285px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 15px;
+}
+.dealitemimg{
+  max-height: 210px;
+}
+.dealitemimg img{
+  width: 100%;
+  height: 82%;
+  object-fit: cover;
+}
+.dealitemimg p{
+  line-height: 15px;
+  margin-top: 0;
+  font-size: 10px;
+}
+.dealitemimgcardlarge{
+  width: 90%;
+}
+.dealitemimglarge{
+  width: 100%;
 }
 .moredeals{
     height: 19px;
     width: 90%;
-    background-color: aqua;
+    display: flex;
+    align-items: flex-end;
 }
+.moredeals p{
+  color: rgb(0,113,133);
+  line-height: 0;
+  margin: 0%;
+  font-size: 12px;
+  cursor: pointer;
+}
+.moredeals p:hover{
+  color: #C7511F;
+  text-decoration: underline;
+}
+
