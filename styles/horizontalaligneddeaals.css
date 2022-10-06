@@ -1,84 +1,123 @@
-.blockbusterdeals{
-    width: 98%;
-    background-color: white;
-    height: 375px;
-    overflow-x: scroll;
-    margin-top: 584px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.blockbusterdeals {
+  width: 98%;
+  background-color: white;
+  height: 375px;
+  margin-top: 584px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.heading{
+.blockbusterdealcard {
+  width: 97%;
+  height: 79%;
+  overflow-x: scroll;
+}
+.heading {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  gap: 30px;
+}
+.dealheading {
+  margin: 0%;
+  line-height: normal;
+  font-size: 20px;
+  font-weight: 700;
+}
+.more {
+  font-size: 14px;
+  cursor: pointer;
+  line-height: 27px;
+  color: #007185;
+}
+.more:hover {
+  color: rgb(211, 106, 106);
+  text-decoration: underline;
+}
+.blockbusterdealimgcard {
+  width: 100%;
+  height: 275px;
+  display: flex;
+  padding-left: 30px;
+  box-sizing: border-box;
+  display: flex;
+  gap: 10px;
+}
+.blockbusterdealimg {
+  width: 199px;
+  height: 100%;
+}
+.blockbusterdealimg img {
+  padding: 0% 10px;
+}
+.discounted-amount p {
+  margin: 0%;
+  width: fit-content;
+  font-size: 12px;
+  padding: 3px 5px;
+  box-sizing: border-box;
+  color: white;
+  background-color: rgb(204, 12, 57);
+  font-weight: 500;
+}
+.discounted-amount {
+  margin-top: 3px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.discounted-amount span {
+  font-size: 11px;
+  color: rgb(204, 12, 57);
+  font-weight: 600;
+}
+.blockbusterdealcard::-webkit-scrollbar-track,
+.amazonbussinessdeals::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+.blockbusterdealcard::-webkit-scrollbar,
+.amazonbussinessdeals::-webkit-scrollbar {
+  height: 7px;
+}
+
+.blockbusterdealcard::-webkit-scrollbar-thumb,
+.amazonbussinessdeals::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #aaa;
+}
+.blockbusterdealphoneprice {
+  display: flex;
+  flex-direction: column;
+}
+.blockbusterdealphoneprice p {
+  line-height: normal;
+  margin: 5px 0%;
+  font-size: 17px;
+  font-weight: 400;
+}
+.phonemrp {
+  font-size: 12px !important;
+  line-height: normal;
+  color: #565959;
+  margin: 0%;
+}
+.phonemrp span {
+  text-decoration: line-through;
+}
+.amazonbussinessdeals {
+  width: 100%;
+  overflow-x: scroll;
+  background-color: white;
+  height: 500px;
+}
+.amazonbussinessdealimgcard{
     width: 100%;
-    padding: 20px;
-    box-sizing: border-box;
-    display: flex;
-    gap: 30px;
-}
-.dealheading{
-    margin: 0%;
-    line-height: normal;
-    font-size: 20px;
-    font-weight: 700;
-}
-.more{
-    font-size: 14px;
-    cursor: pointer;
-    line-height: 27px;
-    color: #007185 ;
-}
-.more:hover{
-    color: rgb(211, 106, 106);
-    text-decoration: underline;
-}
-.blockbusterdealimgcard{
-    width: 100%;
-    height: 275px;
+    height: 201px;
     display: flex;
     padding-left: 30px;
     box-sizing: border-box;
     display: flex;
     gap: 10px;
-}
-.blockbusterdealimg{
-    width: 199px;
-    height: 100%;
-}
-.blockbusterdealimg img{
-    padding: 0% 10px;
-}
-.discounted-amount p{
-    margin: 0%;
-    width: fit-content;
-    font-size: 12px;
-    padding: 3px 5px;
-    box-sizing: border-box;
-    color: white;
-    background-color: rgb(204,12,57);
-    font-weight: 500;
-}
-.discounted-amount{
-    margin-top: 3px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-.discounted-amount span{
-    font-size: 11px;
-    color: rgb(204,12,57);
-    font-weight: 600;
-}
-.blockbusterdeals::-webkit-scrollbar-track{
-	border-radius: 10px;
-}
-
-.blockbusterdeals::-webkit-scrollbar{
-    height: 7px;
-    
-}
-
-.blockbusterdeals::-webkit-scrollbar-thumb{
-	border-radius: 10px;
-    background-color: #555;
-    
 }
