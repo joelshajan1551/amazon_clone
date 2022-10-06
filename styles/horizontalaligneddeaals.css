@@ -1,8 +1,8 @@
 .blockbusterdeals {
-  width: 98%;
+  width: 100%;
   background-color: white;
   height: 375px;
-  margin-top: 584px;
+  margin-top: 558px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -73,17 +73,17 @@
   font-weight: 600;
 }
 .blockbusterdealcard::-webkit-scrollbar-track,
-.amazonbussinessdeals::-webkit-scrollbar-track {
+.amazonbussinessimgcard::-webkit-scrollbar-track {
   border-radius: 10px;
 }
 
 .blockbusterdealcard::-webkit-scrollbar,
-.amazonbussinessdeals::-webkit-scrollbar {
+.amazonbussinessimgcard::-webkit-scrollbar {
   height: 7px;
 }
 
 .blockbusterdealcard::-webkit-scrollbar-thumb,
-.amazonbussinessdeals::-webkit-scrollbar-thumb {
+.amazonbussinessimgcard::-webkit-scrollbar-thumb {
   border-radius: 10px;
   background-color: #aaa;
 }
@@ -108,9 +108,11 @@
 }
 .amazonbussinessdeals {
   width: 100%;
-  overflow-x: scroll;
   background-color: white;
-  height: 500px;
+  height: 305px;
+  padding: 0% 20px;
+  box-sizing: border-box;
+
 }
 .amazonbussinessdealimgcard{
     width: 100%;
@@ -120,4 +122,19 @@
     box-sizing: border-box;
     display: flex;
     gap: 10px;
+    object-fit: contain;
+
+}
+
+.amazonbussinessimgcard{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  overflow-x: scroll;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+}
+.amazonbussinessimgcard img{
+  width: 18%;
+  object-fit: contain;
 }

@@ -9,9 +9,10 @@ body{
 
 }
 .container{
-    width: 75vw;
-    height: 100%;
+    width: 74.5vw;
+    height: 10000px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 25px;
 }
