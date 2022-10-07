@@ -20,7 +20,6 @@
     font-weight: 700;
 }
 .history{
-    background-color: bisque;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -28,19 +27,118 @@
     align-items: center;
 }
 .recommendeditems{
-    background-color: aqua;
     height: 448px;
     width: 95%;
     display: flex;
+    flex-direction: row;
     align-items: center;
+    gap: 95.6%;
+    position: relative;
 }
 .leftarrow,.arrow{
-    width: 25px;
+    width: 17px;
     background-color: white;
-    padding: 5px;
+    padding: 10px;
     border-radius: 6px;
     border: 1px solid rgb(190, 190, 190);  
 }
 .leftarrow{
     transform: rotate(180deg);
 }
+.recommended{
+    position: absolute;
+    width: 95%;
+    height: 100%;
+    margin-left: 2.5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+.recommended div{
+    max-width: 160px;
+    cursor: pointer;
+}
+.recommendeditemname{
+    height: 100px;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0%;
+    color: #007185;
+}
+.recommendeditemname:hover{
+    color: #C7511F;
+    text-decoration: underline;
+}
+.review{
+    display: flex;
+    height: 20px;
+}
+.review img{
+    width: 50%;
+    object-fit: cover;
+}
+.reviewno{
+    height: 100px;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 20px;
+    height: 20px;
+    margin: 0%;
+    color: #007185;
+}
+.dealofday{
+    background-color: rgb(177,39,4);
+    font-size: 12px;
+    padding: 2px 4px;
+    width: 106px;
+    color: white;
+    margin: 0%;
+    margin-top: 5px;
+}
+.recommendeditemprice{
+    display: flex;
+    flex-direction: column;
+    font-weight: 100;
+}
+.recommendeditemdiscountedprice{
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+.recommendeditemdiscountedprice p{
+    margin: 0%;
+    line-height: normal;
+    font-weight: 100;
+    color: rgb(210,57,87);
+}
+.mrp{
+    font-size: 12px;
+    line-height: normal;
+    margin: 0%;
+    margin-top: 5px;
+}
+.mrp span{
+    text-decoration: line-through;
+}
+.deliverydate{
+    font-size: 12px;
+    margin: 0%;
+    margin-top: 5px ;
+    line-height: 20px;
+}
+.deliverydate span{
+    font-weight: bold;
+}
+.freedelivery{
+    font-size: 12px;
+    margin: 0%;
+    margin-top: 5px;
+}
+.endingtime{
+        font-size: 12px;
+        margin: 0%;
+        margin-top: 7px;
+        color: rgb(88, 141, 76);
+}
+  
