@@ -1,0 +1,46 @@
+.browsinghistory{
+    width: 100%;
+    background-color: white;
+    height: 536px;
+    margin-top: 30px;
+}
+.browsinghistory hr{
+    margin-top: 40px;
+    opacity: 0.5;
+}
+.historyheading{
+    width: 99%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.historyheading p{
+    line-height: 0%;
+    margin: 0%;
+    font-size: 18px;
+    font-weight: 700;
+}
+.history{
+    background-color: bisque;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.recommendeditems{
+    background-color: aqua;
+    height: 448px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+}
+.leftarrow,.arrow{
+    width: 25px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 6px;
+    border: 1px solid rgb(190, 190, 190);  
+}
+.leftarrow{
+    transform: rotate(180deg);
+}
