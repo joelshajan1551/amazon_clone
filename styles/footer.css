@@ -1,0 +1,82 @@
+.footer{
+    width: 100%;
+    height: 735px;
+    margin-top: 255px;
+}
+.footer hr{
+    opacity: 0.2;
+    margin: -1px;
+    border-bottom: thick;
+}
+.backtotop{
+    width: 100%;
+    height: 49px;
+    background-color: rgb(55,71,90);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.backtotop p{
+    width: 100%;
+    color: white;
+}
+.aboutamazon{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(35,47,62);
+}
+.about{
+    width:53%;
+    height: 69%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 2fr;
+    gap:  97px;
+}
+.about div{
+    min-width: 132px;
+    max-width: 214px;
+}
+
+.aboutheading{
+    font-size: 16px!important;
+    line-height: 13px!important;
+    color: white!important;
+    font-weight: 700!important;
+}
+.about p{
+    line-height: 10px;
+    font-size: 14px;
+    color: #DDD;
+}
+.countries{
+    width: 100%;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(35,47,62);
+    gap: 100px;
+}
+.countries img{
+    width: 4%;
+}
+.amazonlang{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 117px;
+    height: 33px;
+    border: 1px solid rgb(132,134,136);
+    gap: 20px;
+    padding: 3px;
+    box-sizing: border-box;
+    
+}
+.amazonlang img{
+    width: 17%;
+    filter: invert(100);
+}

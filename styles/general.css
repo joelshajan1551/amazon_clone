@@ -9,6 +9,7 @@ body{
     flex-direction: column;
     align-items: center;
     gap: 25px;
+    margin-bottom: 20px;
 }
 .maincontainer{
     display: flex;
@@ -16,4 +17,41 @@ body{
     align-items: center;
     background-color: rgb(234,237,237);
     width: 100%;
+}
+.hr{
+    width: 97%;
+    opacity: 0.5;
+    margin-top: 40px;
+}
+.hr1{
+    margin-top: 40px;
+    opacity: 0.5;
+    width: 100%;
+}
+.browsinghistoryheading{
+    width: 99%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.browsinghistoryheading p{
+    line-height: 0%;
+    margin: 0%;
+    font-size: 24px;
+    font-weight: 700;
+}
+.browsinghistoryheading span{
+    font-size: 14px;
+    font-weight: 500;
+    color: #007185;
+    cursor: pointer;
+}
+.browsinghistoryheading span:hover{
+    color: #C7511F;
+}
+.browsinghistoryheading img{
+    margin-top: 30px;
+    width: 13%;
+    height: 100px;
+    object-fit: contain;
+    align-content: start;
 }
