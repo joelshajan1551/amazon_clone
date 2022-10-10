@@ -50,6 +50,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     column-gap: 20px;
+    overflow: hidden;
 }
 .recommended div{
     max-width: 160px;
